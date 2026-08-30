@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SCiO//SysPrac26 Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sysprac26-conference@systemspractice.org
+DTSTAMP:20260830T180000Z
+SUMMARY:SysPrac26 – The Systems Thinking Practitioners Conference
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260923
+LOCATION:Cranfield University\, College Road\, Cranfield\, MK43 0AL\, United Kingdom
+DESCRIPTION:SysPrac26 – two days of systems thinking in practice at Cranfield University.\n\nOfficial programme: https://www.systemspractice.org/Schedule26
+URL:https://www.systemspractice.org/Schedule26
+END:VEVENT
+END:VCALENDAR
