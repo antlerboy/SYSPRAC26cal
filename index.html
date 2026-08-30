@@ -3,38 +3,68 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Add SysPrac26, 21–22 September 2026 at Cranfield University, to Google Calendar, Outlook, Microsoft 365 or Apple Calendar.">
+  <meta name="description" content="Build your SysPrac26 programme and add individual sessions to Google Calendar, Outlook, Microsoft 365 or Apple Calendar.">
   <title>SysPrac26 – add to calendar</title>
   <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
   <header>
     <div class="wrap">
-      <p class="kicker">SysPrac26</p>
-      <h1>Add it to your calendar</h1>
-      <p class="lede">21–22 September 2026 · Cranfield University. Add the whole conference, or either day separately, using the calendar system you prefer.</p>
+      <p class="kicker">SysPrac26 · 21–22 September 2026</p>
+      <h1>Put SysPrac26 in your calendar</h1>
+      <p class="lede">Add the whole conference, add an individual session straight to your calendar, or choose your sessions and download your own programme.</p>
     </div>
   </header>
 
   <main class="wrap">
+    <div id="app-error" class="notice error" hidden></div>
+    <button id="download-fallback" class="button primary" type="button" hidden>Download calendar file</button>
+
     <div class="notice">
-      <p>The detailed programme is still the source of truth for session times and rooms. <a href="https://www.systemspractice.org/Schedule26">View the live SysPrac26 schedule</a>.</p>
+      <p><strong>Provisional programme.</strong> The official <a href="https://www.systemspractice.org/Schedule26">Schedule26 page</a> remains the source of truth. Calendar data is based on <span data-source-version>Schedule draft v0.4</span>, reviewed <span data-last-reviewed>2026-08-30</span>.</p>
     </div>
 
-    <div id="events" class="event-grid" aria-live="polite"></div>
+    <section aria-labelledby="quick-add-heading">
+      <h2 id="quick-add-heading">Quick add</h2>
+      <div id="overview-events" class="event-grid"></div>
+    </section>
+
+    <section class="builder" aria-labelledby="builder-heading">
+      <div class="builder-intro">
+        <h2 id="builder-heading">Build my programme</h2>
+        <p>Select the talks and workshops you intend to attend. Common plenary events are selected initially. If you choose overlapping sessions, the page marks the clash rather than silently deciding for you.</p>
+      </div>
+
+      <div class="builder-controls" aria-live="polite">
+        <div>
+          <strong id="selection-count">0 events selected</strong>
+          <p id="conflict-warning" class="conflict-warning" hidden></p>
+        </div>
+        <div class="actions compact-actions">
+          <button id="download-selected" class="button primary" type="button">Download my programme (.ics)</button>
+          <button id="select-defaults" class="button" type="button">Plenaries only</button>
+          <button id="select-breaks" class="button" type="button">Plenaries + breaks</button>
+          <button id="clear-selection" class="button" type="button">Clear</button>
+        </div>
+      </div>
+
+      <div id="programme"></div>
+      <p class="small workshop-note">The official web schedule uses table spans for workshops; their end times here follow those spans. Check the live schedule before relying on a calendar entry.</p>
+    </section>
 
     <section class="direct-links">
-      <h2>Links for the conference website</h2>
-      <p>These stable links can be used directly on the conference site. They point here first, then open the chosen calendar service, so the conference website does not need to carry long provider-specific URLs.</p>
-      <ul id="direct-links-list"></ul>
-      <p class="small">There is also a compact button strip at <a href="embed.html">embed.html</a>, and a universal static calendar file at <a href="sysprac26.ics">sysprac26.ics</a>.</p>
+      <h2>For the conference website</h2>
+      <p>Every programme item has permanent short links for Google Calendar, Outlook.com, Microsoft 365, and ICS, plus an embeddable four-button strip. The links beside each session above can be used directly.</p>
+      <p><a class="button" href="links.html">Open the complete link directory</a> <a class="button" href="embed.html">See the conference embed strip</a></p>
+      <p class="small">Pattern: <code>/?event=EVENT-ID&amp;to=google</code>, <code>outlook</code>, <code>office365</code>, or <code>ics</code>. Embed pattern: <code>/embed.html?event=EVENT-ID</code>.</p>
     </section>
   </main>
 
   <footer>
     <div class="wrap">
-      <p>Calendar helper maintained separately from the official programme. Event data last reviewed <span id="last-reviewed">2026-08-30</span>.</p>
+      <p>SysPrac26 calendar helper · Cranfield University · official programme: <a href="https://www.systemspractice.org/Schedule26">Schedule26</a>.</p>
     </div>
   </footer>
 </body>
