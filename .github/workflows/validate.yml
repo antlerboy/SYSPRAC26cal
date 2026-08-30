@@ -1,0 +1,47 @@
+name: Validate calendar data
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check JavaScript syntax
+        run: |
+          node --check data.js
+          node --check app.js
+
+      - name: Check programme data
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const vm = require('vm');
+          global.window = {};
+          vm.runInThisContext(fs.readFileSync('data.js', 'utf8'), { filename: 'data.js' });
+          const data = window.SYSPRAC_DATA;
+          if (!data || !Array.isArray(data.events)) throw new Error('Programme data missing');
+          if (data.events.length < 70) throw new Error(`Expected full programme, found only ${data.events.length} events`);
+          const ids = data.events.map(e => e.id);
+          if (new Set(ids).size !== ids.length) throw new Error('Duplicate event IDs');
+          for (const event of data.events) {
+            if (!event.id || !event.title) throw new Error('Event missing ID or title');
+            if (event.allDay) {
+              if (!event.start || !event.endExclusive) throw new Error(`${event.id}: all-day dates missing`);
+            } else {
+              if (!event.start || !event.end) throw new Error(`${event.id}: time missing`);
+              if (!(new Date(event.end) > new Date(event.start))) throw new Error(`${event.id}: end must be after start`);
+            }
+          }
+          for (const required of ['conference', 'd1-w4-relational-place-based-public-services', 'd2-w12-systemic-consulting']) {
+            if (!ids.includes(required)) throw new Error(`Required stable ID missing: ${required}`);
+          }
+          console.log(`Validated ${data.events.length} SysPrac26 calendar events`);
+          NODE
