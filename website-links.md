@@ -1,53 +1,42 @@
 # Links to embed on the SysPrac26 conference website
 
-## Preferred stable links
+The easiest source is the generated directory:
 
-Use these once GitHub Pages is enabled. They are short and can keep working even if the underlying event details change.
+https://antlerboy.github.io/SYSPRAC26cal/links.html
 
-Google Calendar
+It lists the whole conference and every individual talk, workshop, panel, plenary, and AGM with links for Google Calendar, Outlook.com, Microsoft 365, ICS, and a compact embeddable button strip.
 
-https://antlerboy.github.io/SYSPRAC26cal/?event=conference&to=google
+## Whole conference
 
-Outlook.com
+- Google Calendar: https://antlerboy.github.io/SYSPRAC26cal/?event=conference&to=google
+- Outlook.com: https://antlerboy.github.io/SYSPRAC26cal/?event=conference&to=outlook
+- Microsoft 365: https://antlerboy.github.io/SYSPRAC26cal/?event=conference&to=office365
+- Apple / universal ICS: https://antlerboy.github.io/SYSPRAC26cal/?event=conference&to=ics
+- Four-button embed strip: https://antlerboy.github.io/SYSPRAC26cal/embed.html?event=conference
+- Standalone programme builder: https://antlerboy.github.io/SYSPRAC26cal/
 
-https://antlerboy.github.io/SYSPRAC26cal/?event=conference&to=outlook
+## Individual event pattern
 
-Microsoft 365
+Every session has an ID in `data.js`. Use:
 
-https://antlerboy.github.io/SYSPRAC26cal/?event=conference&to=office365
+- Google: `https://antlerboy.github.io/SYSPRAC26cal/?event=EVENT-ID&to=google`
+- Outlook.com: `https://antlerboy.github.io/SYSPRAC26cal/?event=EVENT-ID&to=outlook`
+- Microsoft 365: `https://antlerboy.github.io/SYSPRAC26cal/?event=EVENT-ID&to=office365`
+- Apple / ICS: `https://antlerboy.github.io/SYSPRAC26cal/?event=EVENT-ID&to=ics`
+- Button strip: `https://antlerboy.github.io/SYSPRAC26cal/embed.html?event=EVENT-ID`
 
-Apple Calendar / universal ICS
+Example – Benjamin Taylor, `Making relational, place-based public services ordinary`:
 
-https://antlerboy.github.io/SYSPRAC26cal/?event=conference&to=ics
+- Google: https://antlerboy.github.io/SYSPRAC26cal/?event=d1-w4-relational-place-based-public-services&to=google
+- Outlook.com: https://antlerboy.github.io/SYSPRAC26cal/?event=d1-w4-relational-place-based-public-services&to=outlook
+- Microsoft 365: https://antlerboy.github.io/SYSPRAC26cal/?event=d1-w4-relational-place-based-public-services&to=office365
+- Apple / ICS: https://antlerboy.github.io/SYSPRAC26cal/?event=d1-w4-relational-place-based-public-services&to=ics
+- Button strip: https://antlerboy.github.io/SYSPRAC26cal/embed.html?event=d1-w4-relational-place-based-public-services
 
-Standalone choice page
+## Before GitHub Pages is enabled
 
-https://antlerboy.github.io/SYSPRAC26cal/
-
-Compact button strip
-
-https://antlerboy.github.io/SYSPRAC26cal/embed.html
-
-Static ICS file
-
-https://antlerboy.github.io/SYSPRAC26cal/sysprac26.ics
-
-## Direct provider links
-
-These bypass GitHub Pages and can be embedded immediately. They encode the current whole-conference event as an all-day event across 21–22 September 2026.
-
-Google Calendar
-
-https://calendar.google.com/calendar/render?action=TEMPLATE&text=SysPrac26+%E2%80%93+The+Systems+Thinking+Practitioners+Conference&dates=20260921%2F20260923&details=SysPrac26+%E2%80%93+two+days+of+systems+thinking+in+practice+at+Cranfield+University.%0A%0AOfficial+programme%3A+https%3A%2F%2Fwww.systemspractice.org%2FSchedule26&location=Cranfield+University%2C+College+Road%2C+Cranfield%2C+MK43+0AL%2C+United+Kingdom
-
-Outlook.com
-
-https://outlook.live.com/calendar/0/deeplink/compose?path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&subject=SysPrac26+%E2%80%93+The+Systems+Thinking+Practitioners+Conference&startdt=2026-09-21&enddt=2026-09-23&body=SysPrac26+%E2%80%93+two+days+of+systems+thinking+in+practice+at+Cranfield+University.%0A%0AOfficial+programme%3A+https%3A%2F%2Fwww.systemspractice.org%2FSchedule26&location=Cranfield+University%2C+College+Road%2C+Cranfield%2C+MK43+0AL%2C+United+Kingdom&allday=true
-
-Microsoft 365
-
-https://outlook.office.com/calendar/0/deeplink/compose?path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&subject=SysPrac26+%E2%80%93+The+Systems+Thinking+Practitioners+Conference&startdt=2026-09-21&enddt=2026-09-23&body=SysPrac26+%E2%80%93+two+days+of+systems+thinking+in+practice+at+Cranfield+University.%0A%0AOfficial+programme%3A+https%3A%2F%2Fwww.systemspractice.org%2FSchedule26&location=Cranfield+University%2C+College+Road%2C+Cranfield%2C+MK43+0AL%2C+United+Kingdom&allday=true
-
-Universal ICS from GitHub repository
+The whole-conference ICS can still be downloaded from the repository directly:
 
 https://github.com/antlerboy/SYSPRAC26cal/raw/refs/heads/main/sysprac26.ics
+
+The short per-event links require GitHub Pages because the page generates the provider-specific calendar URL from the canonical programme data.
