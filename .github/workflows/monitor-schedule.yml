@@ -1,0 +1,110 @@
+name: Monitor Schedule26
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/monitor-schedule.yml
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch current published schedule
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p monitor
+          curl -L --fail --retry 2 --max-time 90 \
+            'https://r.jina.ai/https://www.systemspractice.org/Schedule26' \
+            -o monitor/current.md
+          sha256sum monitor/current.md | awk '{print $1}' > monitor/current.sha256
+
+      - name: Initialise or detect change
+        id: compare
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ ! -f monitor/last-seen.sha256 ] || [ ! -f monitor/last-seen.md ]; then
+            cp monitor/current.sha256 monitor/last-seen.sha256
+            cp monitor/current.md monitor/last-seen.md
+            echo 'changed=initial' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          old_hash="$(cat monitor/last-seen.sha256)"
+          new_hash="$(cat monitor/current.sha256)"
+          if [ "$old_hash" = "$new_hash" ]; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+          echo "old_hash=$old_hash" >> "$GITHUB_OUTPUT"
+          echo "new_hash=$new_hash" >> "$GITHUB_OUTPUT"
+          diff -u monitor/last-seen.md monitor/current.md > monitor/change.diff || true
+
+      - name: Add change to update queue
+        if: steps.compare.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OLD_HASH: ${{ steps.compare.outputs.old_hash }}
+          NEW_HASH: ${{ steps.compare.outputs.new_hash }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          {
+            echo 'Schedule26 changed on the public website.'
+            echo
+            echo "Detected: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            echo
+            echo "Previous source hash: \`$OLD_HASH\`"
+            echo "Current source hash: \`$NEW_HASH\`"
+            echo
+            echo 'Review the changes below against `data.js` and `extras.js` before updating the calendar helper.'
+            echo
+            echo '<details><summary>Source diff</summary>'
+            echo
+            echo '```diff'
+            head -c 50000 monitor/change.diff
+            echo
+            echo '```'
+            echo '</details>'
+            echo
+            echo "Workflow run: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          } > monitor/comment.md
+          gh issue comment 1 --repo "$GITHUB_REPOSITORY" --body-file monitor/comment.md
+
+      - name: Record current source
+        if: steps.compare.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp monitor/current.sha256 monitor/last-seen.sha256
+          cp monitor/current.md monitor/last-seen.md
+
+      - name: Commit baseline or new observed version
+        if: steps.compare.outputs.changed == 'initial' || steps.compare.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add monitor/last-seen.sha256 monitor/last-seen.md
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          if [ '${{ steps.compare.outputs.changed }}' = 'initial' ]; then
+            git commit -m 'Initialise Schedule26 monitor baseline'
+          else
+            git commit -m 'Record observed Schedule26 source change'
+          fi
+          git push
