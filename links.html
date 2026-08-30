@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Stable embeddable calendar links for every SysPrac26 programme item.">
+  <title>SysPrac26 – calendar link directory</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <p class="kicker">SysPrac26 · website editor links</p>
+      <h1>Calendar link directory</h1>
+      <p class="lede">Stable links for the whole conference and each individual talk, workshop, panel, plenary, and AGM. Use these directly on the conference website.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="app-error" class="notice error" hidden></div>
+    <div class="notice">
+      <p><strong>Provisional programme.</strong> Based on <span data-source-version>Schedule draft v0.4</span>, reviewed <span data-last-reviewed>2026-08-30</span>. <a href="https://www.systemspractice.org/Schedule26">Check Schedule26</a> before publication.</p>
+    </div>
+
+    <p><a class="button" href="./">Back to programme builder</a></p>
+
+    <div class="link-table-wrap">
+      <table class="link-table">
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Google</th>
+            <th>Outlook</th>
+            <th>M365</th>
+            <th>ICS</th>
+            <th>Embed strip</th>
+          </tr>
+        </thead>
+        <tbody id="link-directory"></tbody>
+      </table>
+    </div>
+
+    <section class="direct-links">
+      <h2>Link pattern</h2>
+      <p>Direct links use <code>/?event=EVENT-ID&amp;to=google</code>. Replace <code>google</code> with <code>outlook</code>, <code>office365</code>, or <code>ics</code>.</p>
+      <p>An embeddable four-button strip for any event uses <code>/embed.html?event=EVENT-ID</code>.</p>
+    </section>
+  </main>
+</body>
+</html>
