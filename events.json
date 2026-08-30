@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "name": "SysPrac26",
+    "officialSchedule": "https://www.systemspractice.org/Schedule26",
+    "officialEvent": "https://www.systemspractice.org/events/sysprac26-conference",
+    "timezone": "Europe/London",
+    "lastReviewed": "2026-08-30"
+  },
+  "events": [
+    {
+      "id": "conference",
+      "kind": "conference",
+      "title": "SysPrac26 – The Systems Thinking Practitioners Conference",
+      "allDay": true,
+      "start": "2026-09-21",
+      "endExclusive": "2026-09-23",
+      "location": "Cranfield University, College Road, Cranfield, MK43 0AL, United Kingdom",
+      "description": "SysPrac26 – two days of systems thinking in practice at Cranfield University. Official programme: https://www.systemspractice.org/Schedule26",
+      "url": "https://www.systemspractice.org/Schedule26"
+    },
+    {
+      "id": "day-1",
+      "kind": "day",
+      "title": "SysPrac26 – Day 1",
+      "allDay": true,
+      "start": "2026-09-21",
+      "endExclusive": "2026-09-22",
+      "location": "Cranfield University, College Road, Cranfield, MK43 0AL, United Kingdom",
+      "description": "Day 1 of SysPrac26. See the live programme for session times and rooms: https://www.systemspractice.org/Schedule26",
+      "url": "https://www.systemspractice.org/Schedule26"
+    },
+    {
+      "id": "day-2",
+      "kind": "day",
+      "title": "SysPrac26 – Day 2",
+      "allDay": true,
+      "start": "2026-09-22",
+      "endExclusive": "2026-09-23",
+      "location": "Cranfield University, College Road, Cranfield, MK43 0AL, United Kingdom",
+      "description": "Day 2 of SysPrac26. See the live programme for session times and rooms: https://www.systemspractice.org/Schedule26",
+      "url": "https://www.systemspractice.org/Schedule26"
+    }
+  ]
+}
