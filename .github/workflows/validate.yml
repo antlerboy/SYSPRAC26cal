@@ -17,6 +17,7 @@ jobs:
       - name: Check JavaScript syntax
         run: |
           node --check data.js
+          node --check extras.js
           node --check app.js
 
       - name: Check programme data
@@ -43,5 +44,9 @@ jobs:
           for (const required of ['conference', 'd1-w4-relational-place-based-public-services', 'd2-w12-systemic-consulting']) {
             if (!ids.includes(required)) throw new Error(`Required stable ID missing: ${required}`);
           }
-          console.log(`Validated ${data.events.length} SysPrac26 calendar events`);
+          const extras = fs.readFileSync('extras.js', 'utf8');
+          if (!extras.includes('"d1-dinner"') || !extras.includes('"19:30"') || !extras.includes('"22:00"')) {
+            throw new Error('Dinner calendar addition is missing or has the wrong time');
+          }
+          console.log(`Validated ${data.events.length} base SysPrac26 calendar events plus dinner addition`);
           NODE
