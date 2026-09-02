@@ -5,6 +5,8 @@ URL Source: https://www.systemspractice.org/Schedule26
 Markdown Content:
 ### PROVISIONAL SCHEDULE
 
+Please note that although the speakers and talks are nearly final, the actual order is likely to change.
+
 ### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-08/Schedule%20draft%20v0.4.pdf "Schedule draft v0.4.pdf")[Floor plan](https://www.systemspractice.org/sites/default/files/2026-08/outline%20plan.pdf "outline plan.pdf")[3D Tour](https://my.matterport.com/show/?m=d7p2APtZW5Z)
 
 ### DAY 1
