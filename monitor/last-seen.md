@@ -5,9 +5,9 @@ URL Source: https://www.systemspractice.org/Schedule26
 Markdown Content:
 ### PROVISIONAL SCHEDULE
 
-Please note that although the speakers and talks are nearly final, the actual order is likely to change.
+Please note that although the speakers and talks are nearly final, the actual order may change. Last updated 2nd September.
 
-### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-08/Schedule%20draft%20v0.4.pdf "Schedule draft v0.4.pdf")[Floor plan](https://www.systemspractice.org/sites/default/files/2026-08/outline%20plan.pdf "outline plan.pdf")[3D Tour](https://my.matterport.com/show/?m=d7p2APtZW5Z)
+### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.6.pdf "Schedule draft v0.6.pdf")[Floor plan](https://www.systemspractice.org/sites/default/files/2026-08/outline%20plan.pdf "outline plan.pdf")[3D Tour](https://my.matterport.com/show/?m=d7p2APtZW5Z)
 
 ### DAY 1
 
@@ -35,7 +35,7 @@ _**Humanising Systems**_ Workshop 2
 
 Tony Korycki
 
-_**Critical Systems Heuristics**_
+_**De-Misting Critical Systems Heuristics**_
 
 _**(CSH)**_
 **1140 - 1205**Sacha Girling
@@ -43,8 +43,6 @@ _**(CSH)**_
 _**Square Pegs, Round Holes, and Rich Pictures: Following the Situation Rather than the Method**_ Kai-Uwe Radde
 
 _**Internalized Liabilities (obvious but invisible)**_ Helen Lavery
-
-_**Systems Thinking in Zero Waste Scotland**_
 **1205 - 1230**Gavin Roberts
 
 _**Practice in the real world**_ Helena Elisabeth Gallbo
@@ -83,12 +81,12 @@ _**System Shapes, Orbital Perspectives and Spheres**_ Louis Klein
 
 _**Realising the Learning Organisation -**_
 
-_**A thirty-year Odyssey along the hype cycle.**_
+_**A thirty-year Odyssey along the hype cycle**_
 **1500 - 1515**Q&A Q&A
 **15:15 - 15:45****Break ( 30 mins)**
-**1545 - 1555**Mike Bourne
+**1545 – 1610**Denis Fischbacher-Smith
 
-_**Governance of Complex Projects**_ Virginia de La Hamayde
+_**How did it come to this?**_ Virginia de La Hamayde
 
 _**Editing the system, not the document: applying systems thinking to annual report production in large public organisations**_ Workshop 6
 
@@ -102,26 +100,28 @@ _**Systemic Leadership**_ Workshop 8
 Tim Curtis
 
 _**Interactive Planning**_
-**1555 - 1610**Dave Hall
+**1610 – 1635**Mark Workman
 
-_**What happens when a Governance Review becomes an inquiry into how an institution learns, decides, adapts and legitimises itself?**_ Pauline Craig/Macmillan
+_**Foresight Transitions**_ Pauline Craig/Macmillan
 
 _**Applying systems thinking to support people living with cancer**_
-**1610 - 1620**Timo J. Hämäläinen
+**1635 - 1700**Esmee Wilcox
 
-_**Ten complexity governance principles**_ Anne Gambles
+_**How might understanding tempo help systemic action in government-community interactions?**_ Anne Gambles
 
 _**Seeing services as systems: what does it mean to design services**_
-**1620 -1630**Q&A Q&A
-**16:30 -16:45****Break ( 15 mins )**
-**16:45 -17:30**Fireside chat Auditorium
+**1700-1715**Q&A Q&A
+**1715 -1730****Break ( 15 mins )**
+**1730 –**
+
+**1800**Fireside chat Auditorium
 
 Louise le Gat & Patrick Hoverstadt
 
 _**From misfits to System shifts**_
 
 _**DAY ONE CLOSE**_
-**1730 - 1830**_**SCiO Members AGM**_
+**1800 - 1900**_**SCiO Members AGM**_
 **19.30**_**Dinner**_
 
 ### DAY 2
@@ -129,16 +129,16 @@ _**DAY ONE CLOSE**_
 **Time 08:30 -**_**Arrival &Networking**_
 **09:15 - 10:00**Panel Auditorium
 
-Alison Guthrie-Wrenn, Gary Kass, Simon MacCormac, Helen Lavery
+Alison Guthrie-Wrenn, Gary Kass, Simon MacCormac, Helen Lavery, Jon Holman
 
 **Building Systems Thinking capability for Governments**
 **1000 - 1030****Break ( 30 mins )**
 **Room****LR3****LR6****LR2****LR4****LR1**
 **1030 - 1055**Joan Lurie
 
-_**From Linear Transformation to 4D System Looping**_ Denis Fischbacher-Smith
+_**From Linear Transformation to 4D System Looping**_ Mike Bourne
 
-_**How did it come to this?**_ Meriel Davies
+_**Governance of Complex Projects**_ Meriel Davies
 
 _**Exploring Systems Thinking in Supply Chain Management**_ Workshop 9
 
@@ -151,16 +151,16 @@ Patrick Hoverstadt
 _**Viable System Model (VSM) - Balancing Complexity**_
 **1055 - 1120**Janne J. Korhonen
 
-_**What Happens When Nothing Happens? A Metabolic Perspective on Organizational Change**_ Mark Workman
+_**What Happens When Nothing Happens? A Metabolic Perspective on Organizational Change**_ Dave Hall
 
-_**Foresight Transitions**_ Carola Ritzinger-Roll
+_**What happens when a Governance Review becomes an inquiry into how an institution learns, decides, adapts and legitimises itself?**_ Carola Ritzinger-Roll
 
 _**From viability to measurability – Designing governance structures in highly complex and regulated organisational contexts**_
 **1120 - 1145**Anca Popa
 
-_**Patterns of systemic relationships in change programmes**_ Esmee Wilcox
+_**Patterns of systemic relationships in change programmes**_ Timo J. Hämäläinen
 
-_**How might understanding tempo help systemic action in government-community interactions?**_ Jon Elphick
+_**Ten complexity governance principles**_ Jon Elphick
 
 _**Mind the Gap…. in Weltanschauung**_
 **1145 - 1200**Q&A Q&A Q&A
@@ -198,7 +198,7 @@ _**Perhaps the most important learning to create success is what we learn from f
 **14:30–**
 
 **15:00****Break( 30 mins )**
-**1500 - 1510**Tim Whitcher
+**1500 - 1525**Tim Whitcher
 
 _**Systems in Symmetry: Symmetry in Systems**_ Melissa Dawson
 
@@ -206,7 +206,7 @@ _**Adapting How We Practice in a Constantly Changing Working Environment**_ Work
 
 Charis Lüdtke
 
-_**Cultivating a Systems Mindset for Circular Value Chains**_ Workshop 14
+_**Building Circular economy using the Multi-flow method**_ Workshop 14
 
 Martin Günther
 
@@ -216,23 +216,24 @@ Kim Warren
 _**System Dynamics**_
 
 _**(SD)**_
-**1510 - 1520**Edward Hilton
+**1525 - 1550**Edward Hilton
 
 _**From a Search for Intrinsic Value to Persistent Systems: The Deductive Development of TEQR**_ Christine McNeal
 
 _**Applying Soft Systems Methodology to Review Adult Skills Funding: Lessons from a First-Time Practitioner**_
-**1520 - 1530**Louie Gardiner
+**1550 – 1615**Louie Gardiner
 
-_**Symmathesic Agency**_ Virginia de La Hamayde, Jessica Britton, Mel Harris & Tash Koerner
+_**Symmathesic Agency**_ Virginia de La Hamayde
 
 _**Apprentices without masters: Building systems thinking practice capability**_
-**15-30 - 1545**Q&A Q&A
-**15:45 - 16:00**_**Break**_**( 15 mins )**
-**16:00 - 16:45**Panel Discussion Auditorium
+**1615- 1630**Q&A Q&A
+**1630- 16:45**_**Break**_**( 15 mins )**
+**16:45 –**
 
-Simon MacCormac, Patrick Hoverstadt, Alison Guthrie - Wrenn & Gary Kass
+**17.30**Panel Discussion Auditorium
+
+Simon MacCormac, Patrick Hoverstadt, Alison Guthrie - Wrenn &
 
 _**Reflections and Questions**_
-**16:45-**
 
-**17:30**Round up
+**Round up**
