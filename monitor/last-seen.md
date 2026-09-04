@@ -7,7 +7,7 @@ Markdown Content:
 
 Please note that although the speakers and talks are nearly final, the actual order may change. Last updated 2nd September.
 
-### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.6.pdf "Schedule draft v0.6.pdf")[Floor plan](https://www.systemspractice.org/sites/default/files/2026-08/outline%20plan.pdf "outline plan.pdf")[3D Tour](https://my.matterport.com/show/?m=d7p2APtZW5Z)
+### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.61.pdf "Schedule draft v0.61.pdf")[Floor plan](https://www.systemspractice.org/sites/default/files/2026-08/outline%20plan.pdf "outline plan.pdf")[3D Tour](https://my.matterport.com/show/?m=d7p2APtZW5Z)
 
 ### DAY 1
 
@@ -102,7 +102,7 @@ Tim Curtis
 _**Interactive Planning**_
 **1610 – 1635**Mark Workman
 
-_**Foresight Transitions**_ Pauline Craig/Macmillan
+_**The application of Deep Uncertainty approaches for strategy design in possible dynamic, high dimensional futures**_ Pauline Craig/Macmillan
 
 _**Applying systems thinking to support people living with cancer**_
 **1635 - 1700**Esmee Wilcox
