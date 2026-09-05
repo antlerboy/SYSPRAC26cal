@@ -45,7 +45,7 @@ The same pattern works for every talk, workshop, panel, plenary, AGM, and dinner
 
 ## Programme data
 
-`data.js` contains the current provisional Schedule26 programme reviewed on 30 August 2026, corresponding to the published `Schedule draft v0.4`.
+`data.js` contains the current provisional Schedule26 programme reviewed on 5 September 2026, corresponding to the published `Schedule draft v0.61`.
 
 `extras.js` contains small explicit additions that should not be confused with values printed on the source timetable. It currently adds the published 19:30 dinner with a calendar end time of 22:00, and the tiny bottom-right update dot.
 
