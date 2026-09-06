@@ -20,31 +20,7 @@ if (window.SYSPRAC_DATA?.events && typeof E === "function") {
 
 (() => {
   const style = document.createElement("style");
-  style.textContent = `
-    .update-pixel {
-      position: fixed;
-      right: 5px;
-      bottom: 5px;
-      z-index: 9999;
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: currentColor;
-      color: #17202a;
-      opacity: .28;
-      overflow: hidden;
-      text-indent: -9999px;
-      box-shadow: 0 0 0 1px rgba(255,255,255,.7);
-      transition: opacity .15s ease, transform .15s ease;
-    }
-    .update-pixel:hover,
-    .update-pixel:focus-visible {
-      opacity: .9;
-      transform: scale(1.7);
-      outline: 2px solid #ffbf47;
-      outline-offset: 2px;
-    }
-  `;
+  style.textContent = `.update-pixel{position:fixed;right:0;bottom:0;width:44px;height:44px;z-index:99999;background:transparent;border:0}.update-pixel::after{content:"";position:absolute;right:8px;bottom:8px;width:5px;height:5px;border-radius:50%;background:#777;box-shadow:0 0 0 1px #fff}.update-pixel:focus-visible{outline:3px solid #ffbf47;outline-offset:-3px}.update-pixel{font-size:0;color:transparent;text-indent:-9999px}`;
   document.head.appendChild(style);
 
   window.addEventListener("DOMContentLoaded", () => {
