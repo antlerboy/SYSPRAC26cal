@@ -157,7 +157,7 @@ function embedLink(eventId) {
 function timeLabel(event) {
   if (event.allDay) return "All day";
   const fmt = new Intl.DateTimeFormat("en-GB", { hour: "2-digit", minute: "2-digit", hour12: false, timeZone: META.timezone });
-  return `${fmt.format(new Date(event.start))}–${fmt.format(new Date(event.end))}`;
+  return `${fmt.format(new Date(event.start))}-${fmt.format(new Date(event.end))}`;
 }
 
 function dayLabel(date) {
@@ -194,7 +194,7 @@ function renderOverview() {
     h2.textContent = id === "conference" ? "Whole conference" : event.title;
     const p = document.createElement("p");
     p.className = "meta";
-    p.textContent = id === "conference" ? "21–22 September 2026 · Cranfield University" : `${dayLabel(event.start)} · Cranfield University`;
+    p.textContent = id === "conference" ? "21-22 September 2026 · Cranfield University" : `${dayLabel(event.start)} · Cranfield University`;
     const actions = document.createElement("div");
     actions.className = "actions";
     actions.append(
