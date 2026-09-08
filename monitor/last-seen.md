@@ -7,7 +7,7 @@ Markdown Content:
 
 Please note that although the speakers and talks are nearly final, the actual order may change. Last updated 2nd September.
 
-### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.61.pdf "Schedule draft v0.61.pdf")
+### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.61.pdf "Schedule draft v0.61.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts.pdf "SysPrac26 abstracts.pdf")
 
 The conference will be held in the Vincent building; The hotel accommodation and the bar are in the CMDC (Cranfield Management Development Centre). Lunch on both days will be served in the Vincent building; The buffet Dinner (end of Day 1) will be served in the CMDC. It is a 10 minute walk between these locations. See maps below for location details.
 
