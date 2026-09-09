@@ -86,3 +86,7 @@ The static `sysprac26.ics` is only the simple all-day whole-conference entry. In
 `.github/workflows/pages.yml` deploys the repository from `main` using GitHub Actions.
 
 `.github/workflows/validate.yml` checks the JavaScript and core event data, including the deliberate 19:30–22:00 dinner addition, on every push.
+
+## 9 September 2026 review
+
+Checked Schedule26 and the linked abstracts. Preserved existing session IDs, corrected Virginia’s first talk end time, updated published titles and panel credits, added the explicit Q&A blocks, and distinguished Vincent Building sessions from the CMDC dinner. Helen Lavery’s current table entry omits a title; the closing panel list is unfinished. Both uncertainties are retained. Workshop and dinner end-time assumptions remain visible.

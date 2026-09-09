@@ -12,6 +12,7 @@ function utcDateTime(value) {
 }
 
 function eventLocation(event) {
+  if (event.id === "d1-dinner") return "Cranfield Management Development Centre (CMDC), Cranfield University, MK43 0AL, United Kingdom";
   return event.room ? `${event.room}, ${META.venue}` : META.venue;
 }
 

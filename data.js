@@ -1,4 +1,4 @@
-const VENUE = "Cranfield University, College Road, Cranfield, MK43 0AL, United Kingdom";
+const VENUE = "Vincent Building, Cranfield University, College Road, Cranfield, MK43 0AL, United Kingdom";
 const SCHEDULE_URL = "https://www.systemspractice.org/Schedule26";
 
 function E(id, kind, date, start, end, room, speakers, title, defaultSelected = false, note = "") {
@@ -14,10 +14,25 @@ window.SYSPRAC_DATA = {
     venue: VENUE,
     status: "PROVISIONAL SCHEDULE",
     sourceVersion: "Schedule draft v0.61",
-    lastReviewed: "2026-09-05",
+    lastReviewed: "2026-09-09",
     workshopTimingNote: "Workshop end times are inferred from their table row-spans on the official Schedule26 page."
   },
   events: [
+    E("d1-qa-1230-lr3", "talk", "2026-09-21", "12:30", "12:45", "LR3", "", "Questions and discussion: LR3"),
+    E("d1-qa-1230-lr6", "talk", "2026-09-21", "12:30", "12:45", "LR6", "", "Questions and discussion: LR6"),
+    E("d1-qa-1230-lr2", "talk", "2026-09-21", "12:30", "12:45", "LR2", "", "Questions and discussion: LR2"),
+    E("d1-qa-1500-lr3", "talk", "2026-09-21", "15:00", "15:15", "LR3", "", "Questions and discussion: LR3"),
+    E("d1-qa-1500-lr6", "talk", "2026-09-21", "15:00", "15:15", "LR6", "", "Questions and discussion: LR6"),
+    E("d1-qa-1700-lr3", "talk", "2026-09-21", "17:00", "17:15", "LR3", "", "Questions and discussion: LR3"),
+    E("d1-qa-1700-lr6", "talk", "2026-09-21", "17:00", "17:15", "LR6", "", "Questions and discussion: LR6"),
+    E("d2-qa-1145-lr3", "talk", "2026-09-22", "11:45", "12:00", "LR3", "", "Questions and discussion: LR3"),
+    E("d2-qa-1145-lr6", "talk", "2026-09-22", "11:45", "12:00", "LR6", "", "Questions and discussion: LR6"),
+    E("d2-qa-1145-lr2", "talk", "2026-09-22", "11:45", "12:00", "LR2", "", "Questions and discussion: LR2"),
+    E("d2-qa-1415-lr3", "talk", "2026-09-22", "14:15", "14:30", "LR3", "", "Questions and discussion: LR3"),
+    E("d2-qa-1415-lr6", "talk", "2026-09-22", "14:15", "14:30", "LR6", "", "Questions and discussion: LR6"),
+    E("d2-qa-1415-lr2", "talk", "2026-09-22", "14:15", "14:30", "LR2", "", "Questions and discussion: LR2"),
+    E("d2-qa-1615-lr3", "talk", "2026-09-22", "16:15", "16:30", "LR3", "", "Questions and discussion: LR3"),
+    E("d2-qa-1615-lr6", "talk", "2026-09-22", "16:15", "16:30", "LR6", "", "Questions and discussion: LR6"),
     {"id":"conference","kind":"conference","title":"SysPrac26; The Systems Thinking Practitioners Conference","allDay":true,"start":"2026-09-21","endExclusive":"2026-09-23","room":"","speakers":"","description":"SysPrac26; two days of systems thinking in practice at Cranfield University.","url":"https://www.systemspractice.org/Schedule26","defaultSelected":false},
     {"id":"day-1","kind":"day","title":"SysPrac26; Day 1","allDay":true,"start":"2026-09-21","endExclusive":"2026-09-22","room":"","speakers":"","description":"Day 1 of SysPrac26.","url":"https://www.systemspractice.org/Schedule26","defaultSelected":false},
     {"id":"day-2","kind":"day","title":"SysPrac26; Day 2","allDay":true,"start":"2026-09-22","endExclusive":"2026-09-23","room":"","speakers":"","description":"Day 2 of SysPrac26.","url":"https://www.systemspractice.org/Schedule26","defaultSelected":false},
@@ -32,7 +47,7 @@ window.SYSPRAC_DATA = {
     E("d1-w2-critical-systems-heuristics", "workshop", "2026-09-21", "11:15", "12:45", "LR1", "Tony Korycki", "De-Misting Critical Systems Heuristics (CSH)", false, "Workshop 2. End time inferred from the programme table span."),
     E("d1-1140-square-pegs-round-holes", "talk", "2026-09-21", "11:40", "12:05", "LR3", "Sacha Girling", "Square Pegs, Round Holes, and Rich Pictures: Following the Situation Rather than the Method"),
     E("d1-1140-internalized-liabilities", "talk", "2026-09-21", "11:40", "12:05", "LR6", "Kai-Uwe Radde", "Internalized Liabilities (obvious but invisible)"),
-    E("d1-1140-zero-waste-scotland", "talk", "2026-09-21", "11:40", "12:05", "LR2", "Helen Lavery", "Systems Thinking in Zero Waste Scotland"),
+    E("d1-1140-zero-waste-scotland", "talk", "2026-09-21", "11:40", "12:05", "LR2", "Helen Lavery", "Helen Lavery: title to be confirmed"),
     E("d1-1205-practice-real-world", "talk", "2026-09-21", "12:05", "12:30", "LR3", "Gavin Roberts", "Practice in the real world"),
     E("d1-1205-qualitative-differences-attenuators", "talk", "2026-09-21", "12:05", "12:30", "LR6", "Helena Elisabeth Gallbo", "Qualitative Differences in Attenuators: Country office to headquarters signalling in international companies"),
     E("d1-1205-ecosystem-local-government", "talk", "2026-09-21", "12:05", "12:30", "LR2", "Bridie Collins", "Ecosystem in a Local Government Setting"),
@@ -48,7 +63,7 @@ window.SYSPRAC_DATA = {
     E("d1-1435-learning-organisation-odyssey", "talk", "2026-09-21", "14:35", "15:00", "LR6", "Louis Klein", "Realising the Learning Organisation; A thirty-year Odyssey along the hype cycle"),
     E("d1-break-1515", "break", "2026-09-21", "15:15", "15:45", "", "", "Break"),
     E("d1-1545-governance-complex-projects", "talk", "2026-09-22", "10:30", "10:55", "LR6", "Mike Bourne", "Governance of Complex Projects"),
-    E("d1-1545-editing-system-not-document", "talk", "2026-09-21", "15:45", "15:55", "LR6", "Virginia de La Hamayde", "Editing the system, not the document: applying systems thinking to annual report production in large public organisations"),
+    E("d1-1545-editing-system-not-document", "talk", "2026-09-21", "15:45", "16:10", "LR6", "Virginia de La Hamayde", "Editing the system, not the document: applying systems thinking to annual report production in large public organisations"),
     E("d1-w6-agency-system-transformation", "workshop", "2026-09-21", "15:45", "17:15", "LR2", "Takiyah Butler", "Bridge gap between individual agency and whole system transformation", false, "Workshop 6. End time inferred from the programme table span."),
     E("d1-w7-systemic-leadership", "workshop", "2026-09-21", "15:45", "17:15", "LR4", "Gavin Roberts", "Systemic Leadership", false, "Workshop 7. End time inferred from the programme table span."),
     E("d1-w8-interactive-planning", "workshop", "2026-09-21", "15:45", "17:15", "LR1", "Tim Curtis", "Interactive Planning", false, "Workshop 8. End time inferred from the programme table span."),
@@ -60,7 +75,7 @@ window.SYSPRAC_DATA = {
     E("d1-fireside-misfits-system-shifts", "fireside", "2026-09-21", "17:30", "18:00", "Auditorium", "Louise le Gat & Patrick Hoverstadt", "From misfits to System shifts", true, "Fireside chat"),
     E("d1-scio-members-agm", "agm", "2026-09-21", "18:00", "19:00", "", "", "SCiO Members AGM"),
     E("d2-arrival-networking", "networking", "2026-09-22", "08:30", "09:15", "", "", "Arrival & networking", true),
-    E("d2-government-capability-panel", "panel", "2026-09-22", "09:15", "10:00", "Auditorium", "Alison Guthrie-Wrenn, Gary Kass, Simon MacCormac & Helen Lavery", "Building Systems Thinking capability for Governments", true),
+    E("d2-government-capability-panel", "panel", "2026-09-22", "09:15", "10:00", "Auditorium", "Alison Guthrie-Wrenn, Gary Kass, Simon MacCormac, Helen Lavery & Jon Holman", "Building Systems Thinking capability for Governments", true),
     E("d2-break-1000", "break", "2026-09-22", "10:00", "10:30", "", "", "Break"),
     E("d2-1030-linear-transformation-4d-looping", "talk", "2026-09-22", "10:30", "10:55", "LR3", "Joan Lurie", "From Linear Transformation to 4D System Looping"),
     E("d2-1030-how-did-it-come-to-this", "talk", "2026-09-21", "15:45", "16:10", "LR3", "Denis Fischbacher-Smith", "How did it come to this?"),
@@ -84,18 +99,18 @@ window.SYSPRAC_DATA = {
     E("d2-1325-vsm-nhs-england-dhsc", "talk", "2026-09-22", "13:25", "13:50", "LR2", "Max Shen", "Reducing Complexity or Relocating It? Applying VSM to NHS England’s Transition into DHSC"),
     E("d2-1350-societal-policy-systems-principles", "talk", "2026-09-22", "13:50", "14:15", "LR3", "Patrick Hoverstadt & Ed Straw", "42; Addressing societal level policy problems with systems Principles"),
     E("d2-1350-ethical-service-user-engagement", "talk", "2026-09-22", "13:50", "14:15", "LR6", "Claire Tanton", "System Asset or Organisation Dataset? Ethical Service User Engagement in Systems Practice"),
-    E("d2-1350-learning-from-failure", "talk", "2026-09-22", "13:50", "14:15", "LR2", "John Mortimer", "What we can learn from the success and failure of systemic change."),
+    E("d2-1350-learning-from-failure", "talk", "2026-09-22", "13:50", "14:15", "LR2", "John Mortimer", "Perhaps the most important learning to create success is what we learn from failure."),
     E("d2-break-1430", "break", "2026-09-22", "14:30", "15:00", "", "", "Break"),
     E("d2-1500-systems-in-symmetry", "talk", "2026-09-22", "15:00", "15:25", "LR3", "Tim Whitcher", "Systems in Symmetry: Symmetry in Systems"),
     E("d2-1500-adapting-practice-changing-environment", "talk", "2026-09-22", "15:00", "15:25", "LR6", "Melissa Dawson", "Adapting How We Practice in a Constantly Changing Working Environment"),
-    E("d2-w13-circular-value-chains", "workshop", "2026-09-22", "15:00", "16:30", "LR2", "Charis Lüdtke", "Cultivating a Systems Mindset for Circular Value Chains", false, "Workshop 13. End time inferred from the programme table span."),
+    E("d2-w13-circular-value-chains", "workshop", "2026-09-22", "15:00", "16:30", "LR2", "Charis Lüdtke", "Building Circular economy using the Multi-flow method", false, "Workshop 13. End time inferred from the programme table span."),
     E("d2-w14-designing-for-emergence", "workshop", "2026-09-22", "15:00", "16:30", "LR4", "Martin Günther", "From Complexity Theory to Interaction Design: Designing for Emergence with Liberating Structures", false, "Workshop 14. End time inferred from the programme table span."),
     E("d2-w15-system-dynamics", "workshop", "2026-09-22", "15:00", "16:30", "LR1", "Kim Warren", "System Dynamics (SD)", false, "Workshop 15. End time inferred from the programme table span."),
     E("d2-1510-teqr-persistent-systems", "talk", "2026-09-22", "15:25", "15:50", "LR3", "Edward Hilton", "From a Search for Intrinsic Value to Persistent Systems: The Deductive Development of TEQR"),
     E("d2-1510-ssm-adult-skills-funding", "talk", "2026-09-22", "15:25", "15:50", "LR6", "Christine McNeal", "Applying Soft Systems Methodology to Review Adult Skills Funding: Lessons from a First-Time Practitioner"),
     E("d2-1520-symmathesic-agency", "talk", "2026-09-22", "15:50", "16:15", "LR3", "Louie Gardiner", "Symmathesic Agency"),
-    E("d2-1520-apprentices-without-masters", "talk", "2026-09-22", "15:50", "16:15", "LR6", "Virginia de La Hamayde, Jessica Britton, Mel Harris & Tash Koerner", "Apprentices without masters: Building systems thinking practice capability"),
+    E("d2-1520-apprentices-without-masters", "talk", "2026-09-22", "15:50", "16:15", "LR6", "Virginia de La Hamayde", "Apprentices without masters: Building systems thinking practice capability"),
     E("d2-break-1545", "break", "2026-09-22", "16:30", "16:45", "", "", "Break"),
-    E("d2-reflections-panel", "panel", "2026-09-22", "16:45", "17:30", "Auditorium", "Simon MacCormac, Patrick Hoverstadt, Alison Guthrie-Wrenn & Gary Kass", "Reflections and Questions", true, "Panel discussion and round up")
+    E("d2-reflections-panel", "panel", "2026-09-22", "16:45", "17:30", "Auditorium", "Simon MacCormac, Patrick Hoverstadt & Alison Guthrie-Wrenn", "Reflections and Questions", true, "Panel discussion and round up. The source ends the speaker list with an unfinished ampersand; any additional panellist is unconfirmed.")
   ]
 };
