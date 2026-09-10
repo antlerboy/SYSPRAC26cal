@@ -7,7 +7,7 @@ Markdown Content:
 
 Please note that although the speakers and talks are nearly final, the actual order may change. Last updated 2nd September.
 
-### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.61.pdf "Schedule draft v0.61.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts.pdf "SysPrac26 abstracts.pdf")
+### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.7.pdf "Schedule draft v0.7.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts%200.3.pdf "SysPrac26 abstracts 0.3.pdf")
 
 The conference will be held in the Vincent building; The hotel accommodation and the bar are in the CMDC (Cranfield Management Development Centre). Lunch on both days will be served in the Vincent building; The buffet Dinner (end of Day 1) will be served in the CMDC. It is a 10 minute walk between these locations. See maps below for location details.
 
@@ -21,18 +21,18 @@ The conference will be held in the Vincent building; The hotel accommodation and
 **1000****Conference Welcome**
 **1000 - 1045**Opening Panel Auditorium
 
-Alison Guthrie-Wrenn, Gavin Roberts, Sacha Girling
-
 _**Learning Systems Practice**_
-**1045 - 1115****Break ( 30 mins)**
+
+Alison Guthrie-Wrenn, Gavin Roberts, Sacha Girling
+**1045 - 1115****Break (30 mins)**
 **Room****LR3****LR6****LR2****LR4****LR1**
 **1115 - 1140**Simon MacCormac & John Rogers
 
 _**Getting into the Mess**_ Gordon Niven
 
-_**Variety Calculus: Cybernetic Methodology**_ Justin Beirold
+_**Variety Calculus: Cybernetic Methodology**_ Virginia de La Hamayde
 
-_**Embedding Systems Thinking at Innovate UK Business Connect: Industrial Strategy, Technology and Innovation Ecosystems**_ Workshop 1
+_**Editing the system, not the document: applying systems thinking to annual report production in large public organisations**_ Workshop 1
 Jan De Visch
 
 _**Humanising Systems**_ Workshop 2
@@ -46,14 +46,16 @@ _**(CSH)**_
 
 _**Square Pegs, Round Holes, and Rich Pictures: Following the Situation Rather than the Method**_ Kai-Uwe Radde
 
-_**Internalized Liabilities (obvious but invisible)**_ Helen Lavery
+_**Internalized Liabilities (obvious but invisible)**_ Pauline Craig/Macmillan
+
+_**Applying systems thinking to support people living with cancer**_
 **1205 - 1230**Gavin Roberts
 
 _**Practice in the real world**_ Helena Elisabeth Gallbo
 
-_**Qualitative Differences in Attenuators: Country office to headquarters signalling in international companies**_ Bridie Collins
+_**Qualitative Differences in Attenuators: Country office to headquarters signalling in international companies**_ Anne Gambles
 
-_**Ecosystem in a Local Government Setting**_
+_**Seeing services as systems: what does it mean to design services**_
 **1230 - 1245**Q&A Q&A Q&A
 **1245-**
 
@@ -79,9 +81,9 @@ _**Multi- Methodology**_
 _**Systems, purpose and the pursuit of shared meaning**_ Benjamin Wood
 
 _**Closing the Loop: The Participatory and Cybernetic Founding of SCiO USA**_
-**1435 - 1500**Keiron Beardmore
+**1435 - 1500**Kyle Buckle-Hodgson
 
-_**System Shapes, Orbital Perspectives and Spheres**_ Louis Klein
+_**Some Perspectives on Perspective**_ Louis Klein
 
 _**Realising the Learning Organisation -**_
 
@@ -90,9 +92,9 @@ _**A thirty-year Odyssey along the hype cycle**_
 **15:15 - 15:45****Break ( 30 mins)**
 **1545 – 1610**Denis Fischbacher-Smith
 
-_**How did it come to this?**_ Virginia de La Hamayde
+_**How did it come to this?**_ Justin Beirold
 
-_**Editing the system, not the document: applying systems thinking to annual report production in large public organisations**_ Workshop 6
+_**Embedding Systems Thinking at Innovate UK Business Connect: Industrial Strategy, Technology and Innovation Ecosystems**_ Workshop 6
 
 Takiyah Butler
 
@@ -106,14 +108,14 @@ Tim Curtis
 _**Interactive Planning**_
 **1610 – 1635**Mark Workman
 
-_**The application of Deep Uncertainty approaches for strategy design in possible dynamic, high dimensional futures**_ Pauline Craig/Macmillan
+_**The application of Deep Uncertainty approaches for strategy design in possible dynamic, high dimensional futures**_ Keiron Beardmore
 
-_**Applying systems thinking to support people living with cancer**_
+_**System Shapes, Orbital Perspectives and Spheres**_
 **1635 - 1700**Esmee Wilcox
 
-_**How might understanding tempo help systemic action in government-community interactions?**_ Anne Gambles
+_**How might understanding tempo help systemic action in government-community interactions?**_ Bridie Collins
 
-_**Seeing services as systems: what does it mean to design services**_
+_**Ecosystem in a Local Government Setting**_
 **1700-1715**Q&A Q&A
 **1715 -1730****Break ( 15 mins )**
 **1730 –**
@@ -126,16 +128,16 @@ _**From misfits to System shifts**_
 
 _**DAY ONE CLOSE**_
 **1800 - 1900**_**SCiO Members AGM**_
-**19.30**_**Dinner**_
+**19.30**_**Dinner (CMDC)**_
 
 ### DAY 2
 
 **Time 08:30 -**_**Arrival &Networking**_
 **09:15 - 10:00**Panel Auditorium
 
-Alison Guthrie-Wrenn, Gary Kass, Simon MacCormac, Helen Lavery, Jon Holman
-
 **Building Systems Thinking capability for Governments**
+
+Alison Guthrie-Wrenn, Gary Kass, Simon MacCormac, Nick Beech
 **1000 - 1030****Break ( 30 mins )**
 **Room****LR3****LR6****LR2****LR4****LR1**
 **1030 - 1055**Joan Lurie
@@ -149,7 +151,6 @@ _**Exploring Systems Thinking in Supply Chain Management**_ Workshop 9
 Simon MacCormac
 
 _**Managing Systems interventions**_ Workshop 10
-
 Patrick Hoverstadt
 
 _**Viable System Model (VSM) - Balancing Complexity**_
@@ -197,7 +198,7 @@ _**42 – Addressing societal level policy problems with systems Principles**_ C
 
 _**System Asset or Organisation Dataset? Ethical Service User Engagement in Systems Practice**_ John Mortimer
 
-_**Perhaps the most important learning to create success is what we learn from failure.**_
+_**What we can learn from the success and failure of systemic change.**_
 **1415 - 1430**Q&A Q&A Q&A
 **14:30–**
 
@@ -210,7 +211,7 @@ _**Adapting How We Practice in a Constantly Changing Working Environment**_ Work
 
 Charis Lüdtke
 
-_**Building Circular economy using the Multi-flow method**_ Workshop 14
+_**Cultivating a Systems Mindset for Circular Value Chains**_ Workshop 14
 
 Martin Günther
 
@@ -227,7 +228,7 @@ _**From a Search for Intrinsic Value to Persistent Systems: The Deductive Develo
 _**Applying Soft Systems Methodology to Review Adult Skills Funding: Lessons from a First-Time Practitioner**_
 **1550 – 1615**Louie Gardiner
 
-_**Symmathesic Agency**_ Virginia de La Hamayde
+_**Symmathesic Agency**_ Virginia de La Hamayde, Jessica Britton, Mel Harris & Tash Koerner
 
 _**Apprentices without masters: Building systems thinking practice capability**_
 **1615- 1630**Q&A Q&A
@@ -236,8 +237,6 @@ _**Apprentices without masters: Building systems thinking practice capability**_
 
 **17.30**Panel Discussion Auditorium
 
-Simon MacCormac, Patrick Hoverstadt, Alison Guthrie - Wrenn &
+Simon MacCormac, Patrick Hoverstadt, Alison Guthrie - Wrenn & Gary Kass
 
 _**Reflections and Questions**_
-
-**Round up**
