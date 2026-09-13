@@ -7,7 +7,7 @@ Markdown Content:
 
 Please note that although the speakers and talks are nearly final, the actual order may change. Last updated 2nd September.
 
-### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.72.pdf "Schedule draft v0.72.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts%200.31.pdf "SysPrac26 abstracts 0.31.pdf")
+### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.81.pdf "Schedule draft v0.81.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts%200.41.pdf "SysPrac26 abstracts 0.41.pdf")
 
 The conference will be held in the Vincent building; The hotel accommodation and the bar are in the CMDC (Cranfield Management Development Centre). Lunch on both days will be served in the Vincent building; The buffet Dinner (end of Day 1) will be served in the CMDC. It is a 10 minute walk between these locations. See maps below for location details.
 
@@ -59,7 +59,7 @@ _**Seeing services as systems: what does it mean to design services**_
 **1230 - 1245**Q&A Q&A Q&A
 **1245-**
 
-**1345****Lunch(60 mins)**
+**1345****Lunch( 60 mins)**
 **1345 - 1410**Olivia Horgan
 
 _**Conditions of Perception: What Embodied Experience Reveals About Systems Practice Under Pressure**_ Jan De Visch
@@ -81,9 +81,9 @@ _**Multi- Methodology**_
 _**Systems, purpose and the pursuit of shared meaning**_ Benjamin Wood
 
 _**Closing the Loop: The Participatory and Cybernetic Founding of SCiO in North America**_
-**1435 - 1500**Kyle Buckle-Hodgson
+**1435 - 1500**Keiron Beardmore
 
-_**Some Perspectives on Perspective**_ Louis Klein
+_**System Shapes, Orbital Perspectives and Spheres**_ Louis Klein
 
 _**Realising the Learning Organisation -**_
 
@@ -108,12 +108,12 @@ Tim Curtis
 _**Interactive Planning**_
 **1610 – 1635**Mark Workman
 
-_**The application of Deep Uncertainty approaches for strategy design in possible dynamic, high dimensional futures**_ Keiron Beardmore
+_**The application of Deep Uncertainty approaches for strategy design in possible dynamic, high dimensional futures**_ Nick Beech
 
-_**System Shapes, Orbital Perspectives and Spheres**_
-**1635 - 1700**Esmee Wilcox
+_**Viable Futures - Cybernetic governance, imagination and many worlds**_
+**1635 - 1700**Edward Hilton
 
-_**How might understanding tempo help systemic action in government-community interactions?**_ Bridie Collins
+_**From a Search for Intrinsic Value to Persistent Systems: The Deductive Development of TEQR**_ Bridie Collins
 
 _**Ecosystem in a Local Government Setting**_
 **1700-1715**Q&A Q&A
@@ -128,7 +128,7 @@ _**From misfits to System shifts**_
 
 _**DAY ONE CLOSE**_
 **1800 - 1900**_**SCiO Members AGM**_
-**19.30**_**Dinner (CMDC)**_
+**19.30**_**Dinner**_
 
 ### DAY 2
 
@@ -221,9 +221,9 @@ Kim Warren
 _**System Dynamics**_
 
 _**(SD)**_
-**1525 - 1550**Edward Hilton
+**1525 - 1550**Esmee Wilcox
 
-_**From a Search for Intrinsic Value to Persistent Systems: The Deductive Development of TEQR**_ Christine McNeal
+_**How might understanding tempo help systemic action in government-community interactions?**_ Christine McNeal
 
 _**Applying Soft Systems Methodology to Review Adult Skills Funding: Lessons from a First-Time Practitioner**_
 **1550 – 1615**Louie Gardiner
@@ -237,6 +237,6 @@ _**Apprentices without masters: Building systems thinking practice capability**_
 
 **17.30**Panel Discussion Auditorium
 
-Simon MacCormac, Patrick Hoverstadt, Alison Guthrie - Wrenn & Gary Kass
+Simon MacCormac, Patrick Hoverstadt, Alison Guthrie-Wrenn & Gary Kass
 
 _**Reflections and Questions**_
