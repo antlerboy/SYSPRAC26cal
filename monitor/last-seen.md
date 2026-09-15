@@ -7,7 +7,7 @@ Markdown Content:
 
 Please note that although the speakers and talks are nearly final, the actual order may change. Last updated 2nd September.
 
-### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.81.pdf "Schedule draft v0.81.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts%200.42.pdf "SysPrac26 abstracts 0.42.pdf")
+### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.81.pdf "Schedule draft v0.81.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts%200.5.pdf "SysPrac26 abstracts 0.5.pdf")
 
 The conference will be held in the Vincent building; The hotel accommodation and the bar are in the CMDC (Cranfield Management Development Centre). Lunch on both days will be served in the Vincent building; The buffet Dinner (end of Day 1) will be served in the CMDC. It is a 10 minute walk between these locations. See maps below for location details.
 
@@ -19,10 +19,8 @@ The conference will be held in the Vincent building; The hotel accommodation and
 **0930-**
 
 **1000****Conference Welcome**
-**1000 - 1045**Opening Panel Auditorium
-
-_**Learning Systems Practice**_
-
+**1000 - 1045**Opening Panel Auditorium  
+_**Learning Systems Practice**_  
 Alison Guthrie-Wrenn, Gavin Roberts, Sacha Girling
 **1045 - 1115****Break (30 mins)**
 **Room****LR3****LR6****LR2****LR4****LR1**
@@ -39,8 +37,7 @@ _**Humanising Systems**_ Workshop 2
 
 Tony Korycki
 
-_**De-Misting Critical Systems Heuristics**_
-
+_**De-Misting Critical Systems Heuristics**_  
 _**(CSH)**_
 **1140 - 1205**Sacha Girling
 
@@ -85,8 +82,7 @@ _**Closing the Loop: The Participatory and Cybernetic Founding of SCiO in North 
 
 _**System Shapes, Orbital Perspectives and Spheres**_ Louis Klein
 
-_**Realising the Learning Organisation -**_
-
+_**Realising the Learning Organisation -**_  
 _**A thirty-year Odyssey along the hype cycle**_
 **1500 - 1515**Q&A Q&A
 **15:15 - 15:45****Break ( 30 mins)**
@@ -120,8 +116,7 @@ _**Ecosystem in a Local Government Setting**_
 **1715 -1730****Break ( 15 mins )**
 **1730 –**
 
-**1800**Fireside chat Auditorium
-
+**1800**Fireside chat Auditorium  
 Louise le Gat & Patrick Hoverstadt
 
 _**From misfits to System shifts**_
@@ -203,8 +198,7 @@ _**What we can learn from the success and failure of systemic change.**_
 **14:30–**
 
 **15:00****Break( 30 mins )**
-**1500 - 1525**Tim Whitcher
-
+**1500 - 1525**Tim Whitcher  
 _**Systems in Symmetry: Symmetry in Systems**_ Melissa Dawson
 
 _**Adapting How We Practice in a Constantly Changing Working Environment**_ Workshop 13
@@ -218,16 +212,14 @@ Martin Günther
 **From Complexity Theory to Interaction Design: Designing for Emergence with Liberating Structures**Workshop 15
 Kim Warren
 
-_**System Dynamics**_
-
+_**System Dynamics**_  
 _**(SD)**_
 **1525 - 1550**Esmee Wilcox
 
 _**How might understanding tempo help systemic action in government-community interactions?**_ Christine McNeal
 
 _**Applying Soft Systems Methodology to Review Adult Skills Funding: Lessons from a First-Time Practitioner**_
-**1550 – 1615**Louie Gardiner
-
+**1550 – 1615**Louie Gardiner  
 _**Symmathesic Agency**_ Virginia de La Hamayde, Jessica Britton, Mel Harris & Tash Koerner
 
 _**Apprentices without masters: Building systems thinking practice capability**_
