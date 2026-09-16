@@ -7,7 +7,7 @@ Markdown Content:
 
 Please note that although the speakers and talks are nearly final, the actual order may change. Last updated 2nd September.
 
-### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.81.pdf "Schedule draft v0.81.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts%200.5.pdf "SysPrac26 abstracts 0.5.pdf")
+### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20v0.82.pdf "Schedule v0.82.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts%200.52.pdf "SysPrac26 abstracts 0.52.pdf")
 
 The conference will be held in the Vincent building; The hotel accommodation and the bar are in the CMDC (Cranfield Management Development Centre). Lunch on both days will be served in the Vincent building; The buffet Dinner (end of Day 1) will be served in the CMDC. It is a 10 minute walk between these locations. See maps below for location details.
 
@@ -111,7 +111,7 @@ _**Viable Futures - Cybernetic governance, imagination and many worlds**_
 
 _**From a Search for Intrinsic Value to Persistent Systems: The Deductive Development of TEQR**_ Bridie Collins
 
-_**Ecosystem in a Local Government Setting**_
+_**Closing the Loop: reflections on developing system change within a local government setting**_
 **1700-1715**Q&A Q&A
 **1715 -1730****Break ( 15 mins )**
 **1730 –**
