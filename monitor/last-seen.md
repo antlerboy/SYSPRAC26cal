@@ -3,13 +3,13 @@ Title: Schedule 26 | SCiO - Systems and Complexity in Organisation
 URL Source: https://www.systemspractice.org/Schedule26
 
 Markdown Content:
-### PROVISIONAL SCHEDULE
+### SCHEDULE
 
-Please note that although the speakers and talks are nearly final, the actual order may change. Last updated 2nd September.
+Please note that although the speakers and talks are final, the actual order may still change. Last updated 17th September.
 
-### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20v0.82.pdf "Schedule v0.82.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts%200.52.pdf "SysPrac26 abstracts 0.52.pdf")
+### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.83.pdf "Schedule draft v0.83.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts%200.53.pdf "SysPrac26 abstracts 0.53.pdf")
 
-The conference will be held in the Vincent building; The hotel accommodation and the bar are in the CMDC (Cranfield Management Development Centre). Lunch on both days will be served in the Vincent building; The buffet Dinner (end of Day 1) will be served in the CMDC. It is a 10 minute walk between these locations. See maps below for location details.
+The conference will be held in the Vincent building; The hotel accommodation and the bar are in the CMDC (Cranfield Management Development Centre). Lunch on both days will be served in the Vincent building; The buffet Dinner (end of Day 1) will be served in the CMDC. Entertainment and accommodation is also in the CMDC. It is a 10 minute walk between these locations. See maps below for location details.
 
 ### [Floor plan](https://www.systemspractice.org/sites/default/files/2026-08/outline%20plan.pdf "outline plan.pdf")[3D Tour](https://my.matterport.com/show/?m=d7p2APtZW5Z)[Campus map](https://www.systemspractice.org/sites/default/files/2026-09/Cranfield-University-campus-map-2024.pdf "Cranfield-University-campus-map-2024.pdf")[SysPrac26 map](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20map%20v0.2.pdf "SysPrac26 map v0.2.pdf")
 
@@ -43,16 +43,16 @@ _**(CSH)**_
 
 _**Square Pegs, Round Holes, and Rich Pictures: Following the Situation Rather than the Method**_ Kai-Uwe Radde
 
-_**Internalized Liabilities (obvious but invisible)**_ Pauline Craig/Macmillan
+_**Internalized Liabilities (obvious but invisible)**_ Dave Hall
 
-_**Applying systems thinking to support people living with cancer**_
+_**What happens when a Governance Review becomes an inquiry into how an institution learns, decides, adapts and legitimises itself?**_
 **1205 - 1230**Gavin Roberts
 
 _**Practice in the real world**_ Helena Elisabeth Gallbo
 
-_**Qualitative Differences in Attenuators: Country office to headquarters signalling in international companies**_ Anne Gambles
+_**Qualitative Differences in Attenuators: Country office to headquarters signalling in international companies**_ Pauline Craig/Macmillan
 
-_**Seeing services as systems: what does it mean to design services**_
+_**Applying systems thinking to support people living with cancer**_
 **1230 - 1245**Q&A Q&A Q&A
 **1245-**
 
@@ -151,9 +151,9 @@ Patrick Hoverstadt
 _**Viable System Model (VSM) - Balancing Complexity**_
 **1055 - 1120**Janne J. Korhonen
 
-_**What Happens When Nothing Happens? A Metabolic Perspective on Organizational Change**_ Dave Hall
+_**What Happens When Nothing Happens? A Metabolic Perspective on Organizational Change**_ Anne Gambles
 
-_**What happens when a Governance Review becomes an inquiry into how an institution learns, decides, adapts and legitimises itself?**_ Carola Ritzinger-Roll
+_**Seeing services as systems: what does it mean to design services**_ Carola Ritzinger-Roll
 
 _**From viability to measurability – Designing governance structures in highly complex and regulated organisational contexts**_
 **1120 - 1145**Anca Popa
@@ -175,7 +175,7 @@ _**VSM - starting with a blank piece of paper**_ Workshop 11
 
 Louise Le Gat
 
-_**Changing Mindsets**_ Workshop 12
+_**Changing Mindset for New Futures: Unlocking the Resistance to Shaping What Comes Next**_ Workshop 12
 
 Benjamin Taylor
 
