@@ -20,7 +20,7 @@ function eventDescription(event) {
   const parts = [];
   if (event.speakers) parts.push(event.speakers);
   if (event.description) parts.push(event.description);
-  parts.push(`Official provisional programme: ${META.officialSchedule}`);
+  parts.push(`Official programme (order may still change): ${META.officialSchedule}`);
   return parts.join("\n\n");
 }
 
@@ -88,7 +88,7 @@ function icsEventLines(event) {
   const lines = [
     "BEGIN:VEVENT",
     `UID:sysprac26-${event.id}@systemspractice.org`,
-    "DTSTAMP:20260830T183000Z",
+    `DTSTAMP:${compactDate(META.lastReviewed)}T000000Z`,
     `SUMMARY:${escapeIcs(event.title)}`,
     `LOCATION:${escapeIcs(eventLocation(event))}`,
     `DESCRIPTION:${escapeIcs(eventDescription(event))}`,
@@ -352,7 +352,8 @@ function wireBuilderControls() {
 function renderEmbed(eventId) {
   const host = document.querySelector("#embed-actions");
   if (!host) return;
-  const event = EVENTS.find(item => item.id === eventId) || EVENTS.find(item => item.id === "conference");
+  const event = EVENTS.find(item => item.id === eventId);
+  if (!event) throw new Error(DATA.removedEvents?.[eventId] || `Unknown SysPrac26 event: ${eventId}`);
   document.querySelector("#embed-title").textContent = event.title;
   host.append(
     makeLink("Google Calendar", stableLink(event.id, "google"), "button primary"),
@@ -394,7 +395,7 @@ function handleDirectAction() {
   const provider = params.get("to");
   if (!eventId || !provider) return false;
   const event = EVENTS.find(item => item.id === eventId);
-  if (!event) throw new Error(`Unknown SysPrac26 event: ${eventId}`);
+  if (!event) throw new Error(DATA.removedEvents?.[eventId] || `Unknown SysPrac26 event: ${eventId}`);
   if (provider === "ics" || provider === "apple") {
     downloadIcs([event], `sysprac26-${event.id}.ics`);
     const fallback = document.querySelector("#download-fallback");

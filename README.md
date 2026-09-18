@@ -45,7 +45,7 @@ The same pattern works for every talk, workshop, panel, plenary, AGM, and dinner
 
 ## Programme data
 
-`data.js` contains the current provisional Schedule26 programme reviewed on 5 September 2026, corresponding to the published `Schedule draft v0.61`.
+`data.js` contains the Schedule26 programme reviewed against the live official page on 18 September 2026, corresponding to `Schedule draft v0.83 A4`. The organisers describe the speakers and talks as final, while warning that their order may still change.
 
 `extras.js` contains small explicit additions that should not be confused with values printed on the source timetable. It currently adds the published 19:30 dinner with a calendar end time of 22:00, and the tiny bottom-right update dot.
 
@@ -90,3 +90,7 @@ The static `sysprac26.ics` is only the simple all-day whole-conference entry. In
 ## 9 September 2026 review
 
 Checked Schedule26 and the linked abstracts. Preserved existing session IDs, corrected Virginia’s first talk end time, updated published titles and panel credits, added the explicit Q&A blocks, and distinguished Vincent Building sessions from the CMDC dinner. Helen Lavery’s current table entry omits a title; the closing panel list is unfinished. Both uncertainties are retained. Workshop and dinner end-time assumptions remain visible.
+
+## 18 September 2026 review
+
+Reconciled the accumulated schedule notices in issue #1 with the live official timetable. Moved eight sessions, added Nick Beech’s talk, updated five titles and three speaker lists, and removed the unlisted Helen Lavery session from calendar choices. Old links to that session show an explanation. All retained session IDs remain stable. The source hash and changes are recorded in `reviews/2026-09-18-schedule.json`. Workshop and dinner end-time assumptions remain visible.

@@ -1,0 +1,314 @@
+{
+  "reviewed": "2026-09-18",
+  "source": "https://www.systemspractice.org/Schedule26",
+  "source_sha256": "e82d9636e09ead17113c9c37de1fa988c853fd35b531ed374b351a4aed149f24",
+  "source_version": "Schedule draft v0.83 A4",
+  "moves": 8,
+  "changes": [
+    {
+      "id": "d1-1115-embedding-systems-thinking-innovate-uk",
+      "before": [
+        "2026-09-21",
+        "11:15",
+        "11:40",
+        "LR2",
+        "Justin Beirold",
+        "Embedding Systems Thinking at Innovate UK Business Connect: Industrial Strategy, Technology and Innovation Ecosystems"
+      ],
+      "after": [
+        "2026-09-21",
+        "15:45",
+        "16:10",
+        "LR6",
+        "Justin Beirold",
+        "Embedding Systems Thinking at Innovate UK Business Connect: Industrial Strategy, Technology and Innovation Ecosystems"
+      ]
+    },
+    {
+      "id": "d1-1140-zero-waste-scotland",
+      "change": "Not listed in the current official programme; retain an explanation for old links."
+    },
+    {
+      "id": "d1-1205-ecosystem-local-government",
+      "before": [
+        "2026-09-21",
+        "12:05",
+        "12:30",
+        "LR2",
+        "Bridie Collins",
+        "Ecosystem in a Local Government Setting"
+      ],
+      "after": [
+        "2026-09-21",
+        "16:35",
+        "17:00",
+        "LR6",
+        "Bridie Collins",
+        "Closing the Loop: reflections on developing system change within a local government setting"
+      ]
+    },
+    {
+      "id": "d1-1410-closing-the-loop-scio-usa",
+      "before": [
+        "2026-09-21",
+        "14:10",
+        "14:35",
+        "LR6",
+        "Benjamin Wood",
+        "Closing the Loop: The Participatory and Cybernetic Founding of SCiO USA"
+      ],
+      "after": [
+        "2026-09-21",
+        "14:10",
+        "14:35",
+        "LR6",
+        "Benjamin Wood",
+        "Closing the Loop: The Participatory and Cybernetic Founding of SCiO in North America"
+      ]
+    },
+    {
+      "id": "d1-1545-editing-system-not-document",
+      "before": [
+        "2026-09-21",
+        "15:45",
+        "16:10",
+        "LR6",
+        "Virginia de La Hamayde",
+        "Editing the system, not the document: applying systems thinking to annual report production in large public organisations"
+      ],
+      "after": [
+        "2026-09-21",
+        "11:15",
+        "11:40",
+        "LR2",
+        "Virginia de La Hamayde",
+        "Editing the system, not the document: applying systems thinking to annual report production in large public organisations"
+      ]
+    },
+    {
+      "id": "d1-1555-governance-review-inquiry",
+      "before": [
+        "2026-09-22",
+        "10:55",
+        "11:20",
+        "LR6",
+        "Dave Hall",
+        "What happens when a Governance Review becomes an inquiry into how an institution learns, decides, adapts and legitimises itself?"
+      ],
+      "after": [
+        "2026-09-21",
+        "11:40",
+        "12:05",
+        "LR2",
+        "Dave Hall",
+        "What happens when a Governance Review becomes an inquiry into how an institution learns, decides, adapts and legitimises itself?"
+      ]
+    },
+    {
+      "id": "d1-1555-cancer-systems-thinking",
+      "before": [
+        "2026-09-21",
+        "16:10",
+        "16:35",
+        "LR6",
+        "Pauline Craig/Macmillan",
+        "Applying systems thinking to support people living with cancer"
+      ],
+      "after": [
+        "2026-09-21",
+        "12:05",
+        "12:30",
+        "LR2",
+        "Pauline Craig/Macmillan",
+        "Applying systems thinking to support people living with cancer"
+      ]
+    },
+    {
+      "id": "d1-1610-seeing-services-as-systems",
+      "before": [
+        "2026-09-21",
+        "16:35",
+        "17:00",
+        "LR6",
+        "Anne Gambles",
+        "Seeing services as systems: what does it mean to design services"
+      ],
+      "after": [
+        "2026-09-22",
+        "10:55",
+        "11:20",
+        "LR6",
+        "Anne Gambles",
+        "Seeing services as systems: what does it mean to design services"
+      ]
+    },
+    {
+      "id": "d2-government-capability-panel",
+      "before": [
+        "2026-09-22",
+        "09:15",
+        "10:00",
+        "Auditorium",
+        "Alison Guthrie-Wrenn, Gary Kass, Simon MacCormac, Helen Lavery & Jon Holman",
+        "Building Systems Thinking capability for Governments",
+        true
+      ],
+      "after": [
+        "2026-09-22",
+        "09:15",
+        "10:00",
+        "Auditorium",
+        "Alison Guthrie-Wrenn, Gary Kass, Simon MacCormac & Nick Beech",
+        "Building Systems Thinking capability for Governments",
+        true
+      ]
+    },
+    {
+      "id": "d2-1120-tempo-government-community",
+      "before": [
+        "2026-09-21",
+        "16:35",
+        "17:00",
+        "LR3",
+        "Esmee Wilcox",
+        "How might understanding tempo help systemic action in government-community interactions?"
+      ],
+      "after": [
+        "2026-09-22",
+        "15:25",
+        "15:50",
+        "LR3",
+        "Esmee Wilcox",
+        "How might understanding tempo help systemic action in government-community interactions?"
+      ]
+    },
+    {
+      "id": "d2-w11-changing-mindsets",
+      "before": [
+        "2026-09-22",
+        "13:00",
+        "14:30",
+        "LR4",
+        "Louise Le Gat",
+        "Changing Mindsets",
+        false,
+        "Workshop 11. End time inferred from the programme table span."
+      ],
+      "after": [
+        "2026-09-22",
+        "13:00",
+        "14:30",
+        "LR4",
+        "Louise Le Gat",
+        "Changing Mindset for New Futures: Unlocking the Resistance to Shaping What Comes Next",
+        false,
+        "Workshop 11. End time inferred from the programme table span."
+      ]
+    },
+    {
+      "id": "d2-1350-learning-from-failure",
+      "before": [
+        "2026-09-22",
+        "13:50",
+        "14:15",
+        "LR2",
+        "John Mortimer",
+        "Perhaps the most important learning to create success is what we learn from failure."
+      ],
+      "after": [
+        "2026-09-22",
+        "13:50",
+        "14:15",
+        "LR2",
+        "John Mortimer",
+        "What we can learn from the success and failure of systemic change."
+      ]
+    },
+    {
+      "id": "d2-w13-circular-value-chains",
+      "before": [
+        "2026-09-22",
+        "15:00",
+        "16:30",
+        "LR2",
+        "Charis Lüdtke",
+        "Building Circular economy using the Multi-flow method",
+        false,
+        "Workshop 13. End time inferred from the programme table span."
+      ],
+      "after": [
+        "2026-09-22",
+        "15:00",
+        "16:30",
+        "LR2",
+        "Charis Lüdtke",
+        "Cultivating a Systems Mindset for Circular Value Chains",
+        false,
+        "Workshop 13. End time inferred from the programme table span."
+      ]
+    },
+    {
+      "id": "d2-1510-teqr-persistent-systems",
+      "before": [
+        "2026-09-22",
+        "15:25",
+        "15:50",
+        "LR3",
+        "Edward Hilton",
+        "From a Search for Intrinsic Value to Persistent Systems: The Deductive Development of TEQR"
+      ],
+      "after": [
+        "2026-09-21",
+        "16:35",
+        "17:00",
+        "LR3",
+        "Edward Hilton",
+        "From a Search for Intrinsic Value to Persistent Systems: The Deductive Development of TEQR"
+      ]
+    },
+    {
+      "id": "d2-1520-apprentices-without-masters",
+      "before": [
+        "2026-09-22",
+        "15:50",
+        "16:15",
+        "LR6",
+        "Virginia de La Hamayde",
+        "Apprentices without masters: Building systems thinking practice capability"
+      ],
+      "after": [
+        "2026-09-22",
+        "15:50",
+        "16:15",
+        "LR6",
+        "Virginia de La Hamayde, Jessica Britton, Mel Harris & Tash Koerner",
+        "Apprentices without masters: Building systems thinking practice capability"
+      ]
+    },
+    {
+      "id": "d2-reflections-panel",
+      "before": [
+        "2026-09-22",
+        "16:45",
+        "17:30",
+        "Auditorium",
+        "Simon MacCormac, Patrick Hoverstadt & Alison Guthrie-Wrenn",
+        "Reflections and Questions",
+        true,
+        "Panel discussion and round up. The source ends the speaker list with an unfinished ampersand; any additional panellist is unconfirmed."
+      ],
+      "after": [
+        "2026-09-22",
+        "16:45",
+        "17:30",
+        "Auditorium",
+        "Simon MacCormac, Patrick Hoverstadt, Alison Guthrie-Wrenn & Gary Kass",
+        "Reflections and Questions",
+        true,
+        "Panel discussion and round up."
+      ]
+    }
+  ],
+  "added": "d1-1610-viable-futures",
+  "preserved": "All IDs for retained sessions, including IDs whose original day/time wording is now out of date."
+}
