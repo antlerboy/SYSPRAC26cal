@@ -5,9 +5,9 @@ URL Source: https://www.systemspractice.org/Schedule26
 Markdown Content:
 ### SCHEDULE
 
-Please note that although the speakers and talks are final, the actual order may still change. Last updated 20th September.
+Please note that although the speakers and talks are final, the actual order may still change. Last updated 21st September 14:00h.
 
-### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.83%20A4.pdf "Schedule draft v0.83 A4.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts%200.54.pdf "SysPrac26 abstracts 0.54.pdf")
+### [Schedule as PDF to view and print](https://www.systemspractice.org/sites/default/files/2026-09/Schedule%20draft%20v0.92%20A4.pdf "Schedule draft v0.92 A4.pdf")[Abstracts as pdf](https://www.systemspractice.org/sites/default/files/2026-09/SysPrac26%20abstracts%200.54.pdf "SysPrac26 abstracts 0.54.pdf")
 
 The conference will be held in the Vincent building; The hotel accommodation and the bar are in the CMDC (Cranfield Management Development Centre). Lunch on both days will be served in the Vincent building; The buffet Dinner (end of Day 1) will be served in the CMDC. Entertainment and accommodation is also in the CMDC. It is a 10 minute walk between these locations. See maps below for location details.
 
@@ -43,16 +43,16 @@ _**(CSH)**_
 
 _**Square Pegs, Round Holes, and Rich Pictures: Following the Situation Rather than the Method**_ Kai-Uwe Radde
 
-_**Internalized Liabilities (obvious but invisible)**_ Dave Hall
+_**Internalized Liabilities (obvious but invisible)**_ Pauline Craig/Macmillan
 
-_**What happens when a Governance Review becomes an inquiry into how an institution learns, decides, adapts and legitimises itself?**_
+_**Applying systems thinking to support people living with cancer**_
 **1205 - 1230**Gavin Roberts
 
 _**Practice in the real world**_ Helena Elisabeth Gallbo
 
-_**Qualitative Differences in Attenuators: Country office to headquarters signalling in international companies**_ Pauline Craig/Macmillan
+_**Qualitative Differences in Attenuators: Country office to headquarters signalling in international companies**_ Dave Hall
 
-_**Applying systems thinking to support people living with cancer**_
+_**What happens when a Governance Review becomes an inquiry into how an institution learns, decides, adapts and legitimises itself?**_
 **1230 - 1245**Q&A Q&A Q&A
 **1245-**
 
@@ -66,9 +66,7 @@ _**Beyond Sustainability**_ Workshop 3
 Xavier Matieni
 
 _**From Systems Thinking to Systems Judgement: Exploring a Neglected Capability in Management Practice**_ Workshop 4
-Benjamin Taylor
-
-_**Making relational, place-based public services ordinary**_ Workshop 5
+development clinic Workshop 5
 
 Simon MacCormac & Patrick Hoverstadt
 
@@ -177,9 +175,7 @@ Louise Le Gat
 
 _**Changing Mindset for New Futures: Unlocking the Resistance to Shaping What Comes Next**_ Workshop 12
 
-Benjamin Taylor
-
-_**Systemic Consulting**_
+development clinic
 **1325 - 1350**Ivo Velitchkov
 
 _**The Second Law of Technodynamics**_ Simon Gough
